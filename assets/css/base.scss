@@ -1,0 +1,39 @@
+:root{
+  --cl-header-bg: #333;
+  --cl-header-color:#fff;
+  --cl-header-text-hover-color:#f5f0e8;
+}
+// @font-face {
+//   font-family: "sy-medium";
+//   src: url('/fonts/sy-Medium.otf') format("opentype");
+// }
+// @font-face {
+//   font-family: "sy-light";
+//   src: url('/fonts/sy-Light.otf') format("opentype");
+// }
+// @font-face {
+//   font-family: "sy-regular";
+//   src: url('/fonts/sy-Regular.otf') format("opentype");
+// }
+
+body{
+  background-color: #fefefe;
+  font-family: "PingFangSC-Regular","PingFang SC",core_sans_n45_regular,"Avenir Next","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi MicroHei",sans-serif;
+}
+html,body,#app{
+  min-height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+.app-layout{
+  @apply flex;
+  @apply flex-col;
+  @apply min-h-full;
+  // justify-content: space-between;
+}
+.app-page{
+  word-break: break-word;
+  width: 100%;
+}
+.app-error{
+  height: 100vh;
+}

@@ -1,0 +1,5 @@
+{
+  "*.{vue,ts}": [
+    "npm run lint"
+  ]
+}
